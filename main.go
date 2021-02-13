@@ -99,7 +99,7 @@ func main() {
 
 	// The average power is calculated
 	totalAvgPower = totalAvgPower / 60
-	fmt.Println("Total avg power", totalAvgPower)
+	fmt.Println("Total avg power: ", totalAvgPower/1000, " MW")
 }
 
 //SimulateWindAverage s
